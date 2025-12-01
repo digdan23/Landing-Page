@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <title>Tipa Agency | Pagina de start</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/logo.png" type="image/png" >
+    <link rel="stylesheet" href="CSS/styles.css" >
+    <script src="https://kit.fontawesome.com/c11ba349a7.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="myBody">
+
+    <div class="topnav" id="myTopnav">
+        <img src="images/logo.png" alt="Logo Tipa Agency" id="up" >
+        <a href="index.html" class="active">Pagina de start</a>
+        <a href="HTML/about.html">Despre noi</a>
+        <a href="HTML/portofoliu.html">Portofoliu</a>
+        <a href="HTML/contacts.html">Date de contact</a>
+        <a href="javascript:void(0);" class="icon" id="responsiv">
+            <i class="fa fa-bars Lines"></i>
+        </a>
+    </div>
+
+    <div class="image">
+        <img src="images/banner.png" alt="Echipa de content marketing" id="myImage" >
+    </div>
+
+    <div class="text myRelative">
+        <h1>Cine suntem noi: <em>Tipa Agency</em>?</h1>
+        <p><strong>Tipa Agency</strong> este partenerul tău de încredere pentru **promovarea pe rețelele de
+            socializare** și producția de **video-uri scurte de impact** (Reels, TikToks, Shorts). Suntem specializați
+            în transformarea brand-ului tău într-o poveste virală, creând conținut relevant și captivant pentru publicul
+            tău țintă.</p>
+        <p>Mediul online evoluează rapid, iar vizibilitatea organică depinde de conținutul dinamic. Misiunea noastră
+            este să te ajutăm să domini platforme ca Instagram, TikTok și Facebook, oferind soluții complete de la
+            strategie la execuție video.</p>
+    </div>
+
+    <div class="fix"></div>
+
+    <div class="motive">
+        <h1>Serviciile noastre principale...</h1>
+        <div class="opac">
+            <p>Strategie de **Content Marketing** completă, adaptată platformei tale (TikTok, Instagram, YouTube).</p>
+            <p>Producție de **Short-Form Video** (Reels/Shorts) cu rata de conversie dovedită.</p>
+            <p>Campanii de **Social Media Ads** targetate, optimizate pentru cel mai bun ROI.</p>
+        </div>
+    </div>
+
+    <a href="#up"><i class="fa-solid fa-circle-up myArrow"></i></a>
+
+    <div class="footer">
+        <p>Copy © 2025 <span id="yr"></span><br>contact@tipaagency.com</p>
+    </div>
+
+    <script>
+        document.getElementById('responsiv').onclick = function () {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        };
+    </script>
+
+</body>
+
+</html>
